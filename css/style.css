@@ -19,9 +19,9 @@
 	animation: sun 20s infinite;
 }
 @keyframes sun {
-	0% {top: 100px; left: 465px; height: 150px;}
-	50% {top: 450px; left: 450px; height: 0px; }
-	100% {top: 100px; left: 465px; height: 150px;}
+	0% {top: 100px; left: 465px; height: 150px;opacity: 1;}
+	50% {top: 450px; left: 450px; height: 0px; opacity: 0; }
+	100% {top: 100px; left: 465px; height: 150px; opacity: 1;}
 }
 .car {
 	position: absolute;
@@ -29,7 +29,7 @@
 	height: 110px;
 }
 @keyframes car {
-	0% {top: 500px; left: 150px;}
+	0% {top: 500px; left: 150px; }
 	50% {top: 480px; left: 740px;}
 	100% {top: 500px; left: 150px;}
 }
@@ -39,7 +39,7 @@
 	height: 110px;
 }
 @keyframes moon {
-	0% {top: 450px; left: 450px; height: 0px;}
-	50% {top: 100px; left: 465px; height: 150px; }
-	100% {top: 450px; left: 450px; height: 1px;}
+	0% {top: 450px; left: 450px; height: 0px; opacity: 0}
+	50% {top: 100px; left: 465px; height: 150px;opacity: 1 }
+	100% {top: 450px; left: 450px; height: 1px; opacity: 0}
 }
