@@ -1,0 +1,43 @@
+.body{
+  background: #ffff66;
+  animation: body 20s infinite;
+}
+@keyframes body {
+	0% {background: :#ffff66 }
+	50% {background: #0C090A}
+	100% {background: :#ffff66 }
+}
+.img-1 {
+	z-index: 5;
+}
+.img-2 {
+	z-index: 3;
+	height: 100px;
+	position: absolute;
+	animation: sun 20s infinite;
+}
+@keyframes sun {
+	0% {top: 25px; left: 950px; height: 150px;}
+	50% {top: 500px; left: 900px; height: 0px; }
+	100% {top: 25px; left: 950px; height: 150px;}
+}
+.car {
+	position: absolute;
+	animation: car 20s infinite;
+	height: 110px;
+}
+@keyframes car {
+	0% {top: 500px; left: 15px;}
+	50% {top: 480px; left: 590px;}
+	100% {top: 500px; left: 15px;}
+}
+.moon {
+	position: absolute;
+	animation: moon 20s infinite;
+	height: 110px;
+}
+@keyframes moon {
+	0% {top: 500px; left: 900px; height: 0px;}
+	50% {top: 25px; left: 1050px; height: 110px; }
+	100% {top: 500px; left: 900px; height: 0px;}
+}
